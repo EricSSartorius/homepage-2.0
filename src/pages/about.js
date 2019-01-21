@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-const AboutPage = () => (
-  <Layout>
+const AboutPage = ({ location }) => (
+  <Layout location={location}>
     <section className="about">
       <h1 className="title">About Me</h1>
       <p>Life is short and I want to see how much I can explore and learn before I die! If you are curious about how I have time to code, design, model, study languages, and workout all while traveling the world, check out my <a href="http://iamtheepic.com">travel blog.</a></p>

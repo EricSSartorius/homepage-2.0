@@ -3,10 +3,10 @@
 // import Layout from '../../../components/layouts/Layout'
 // import { graphql } from 'gatsby';
 
-// export default function Template({data}) {
+// export default function Template({ data, location }) {
 //   const {markdownRemark: project} = data
 //   return (
-//     <Layout>
+//     <Layout location={location}>
 //       <div className="project">
 
 //         <h1 className="title">{project.frontmatter.title}</h1>

@@ -3,8 +3,8 @@ import React from 'react'
 // import Img from 'gatsby-image'
 import Layout from '../components/layout'
 
-const ProjectsPage = ({ data }) => (
-  <Layout>
+const ProjectsPage = ({ data, location }) => (
+  <Layout location={location}>
     <div className="projects">
       <h1 className="title">Dev Projects</h1>
       <div className="center">

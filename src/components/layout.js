@@ -17,7 +17,7 @@ const Footer = () => (
   </footer>
 )
 
-const Layout = ({ children, location }) => (
+const Layout = ({ children, location }) => {console.log(location); return (
     <>
     <Helmet
       title="Eric Sartorius"
@@ -48,7 +48,7 @@ const Layout = ({ children, location }) => (
     </main>
     <Footer />
     </>
-)
+)}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

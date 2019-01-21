@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-const ContactPage = () => (
-  <Layout>
+const ContactPage = ({ location }) => (
+  <Layout location={location}>
     <section className="contact">
       <h1 className="title">Contact</h1>
       <p>Stay in touch! I am always open to discuss new opportunities.</p>
